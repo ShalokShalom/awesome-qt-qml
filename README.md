@@ -23,7 +23,7 @@ A curated list of awesome Qt and QML libraries, resources, projects, and shiny t
     - [Multimedia](#multimedia)
     - [Networking](#networking)
     - [Package Manager](#package-manager)
-    - [QML Specific](#qml-specific)
+    - [QML Spesific](#qml-spesific)
     - [SDKs](#SDKs)
     - [Styling](#styling)
     - [Templates](#templates)
@@ -52,13 +52,16 @@ A curated list of awesome Qt and QML libraries, resources, projects, and shiny t
 * [quickfuture](https://github.com/benlau/quickfuture) - Using QFuture in QML.
 
 ## Binding
+* [Language Bindings](https://wiki.qt.io/Language_Bindings) - List of available bindings, maintained in the Qt Wiki
+* [Language Bindings](https://en.wikipedia.org/wiki/List_of_language_bindings_for_Qt_5) - List of language bindings, maintanied on Wikipedia
+* [DOtherside](https://github.com/filcuc/DOtherSide) - C language library for creating bindings for the Qt QML language
+* [Bindgen](https://github.com/Papierkorb/bindgen/) - Binding and wrapper generator for C++ libraries, focused on Crystal
+* [qt5.cr](https://github.com/Papierkorb/qt5.cr) - Bindings to Crystal via Bindgen. 
 * [PyQt](http://www.riverbankcomputing.com/software/pyqt/) - PyQt is a set of Python v2 and v3 bindings for Qt and runs on all platforms supported by Qt including Windows, MacOS/X and Linux. PyQt5 supports Qt v5.
 * [PySide](http://qt-project.org/wiki/PySide) - The PySide project provides LGPL-licensed Python bindings for the Qt. It also includes complete toolchain for rapidly generating bindings for any Qt-based C++ class hierarchies.
 * [PyOtherSide](http://thp.io/2011/pyotherside/) - A Qt 5 QML Plugin that provides access to a Python 3 interpreter from QML.
-* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language.
 * [go-qt](https://github.com/therecipe/qt) - Qt binding for Go (Golang) with support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi / AsteroidOS.
 * [qmlrs](https://github.com/cyndis/qmlrs) - qmlrs allows the use of QML/QtQuick code from Rust.
-* [ruby-qml](https://github.com/seanchas116/ruby-qml) - ruby-qml is a QML / Qt Quick wrapper for Ruby. It provides bindings between QML and Ruby and enables you to use Qt Quick-based GUI from Ruby.
 * [libqmlbind](https://github.com/seanchas116/libqmlbind) - A C library for creating QML bindings for other languages easily through exporting objects to QML.
 
 ## Compression
@@ -194,8 +197,6 @@ A curated list of awesome Qt and QML libraries, resources, projects, and shiny t
 * [QmlVlcDemo](https://github.com/RSATom/QmlVlcDemo) - Simple demo app for QmlVlc lib.
 * [qmlmidi](https://github.com/jarnoh/qmlmidi) - MIDI plugin for Qt Quick. Enables using MIDI input or output devices from declarative QML.
 * [qml-recorder](https://github.com/sverzegnassi/qml-recorder) - A QML plugin for audio recording.
-* [Elisa](https://community.kde.org/Elisa) - Music Player
-* [Kamoso](https://github.com/KDE/kamoso) - Webcam Application
 
 ## Networking
 * [libmaia](https://github.com/wiedi/libmaia) - libmaia is a easy-to-use XML-RPC library for Qt.
@@ -210,14 +211,11 @@ A curated list of awesome Qt and QML libraries, resources, projects, and shiny t
 * [QtMqtt](https://github.com/toni1991/QtMqtt) - Qt and QML Mqtt Library.
 * [qml-soap](https://github.com/folibis/qml-soap) - qml-soap is simple SOAP client plugin created to use mostly with QML.
 * [qml-tcpsockets](https://github.com/chili-epfl/qml-tcpsockets) - QML wrappers for QTcpServer and QTcpSocket.
-* [kdeconnect-kde](https://github.com/KDE/kdeconnect-kde) Software to connect with Andriod phones. App and Plasmoid are both in QML.
-* [Liri](https://liri.io/apps/browser/) Web Browser
 
 ## Package Manager
 * [qpm](http://www.qpm.io/) - A package manager for Qt ([source](https://github.com/Cutehacks/qpm)).
-* [Discover](https://userbase.kde.org/Discover) - Package manager GUI, including Flatpaks
 
-## QML Specific
+## QML Spesific
 * [frida-qml](https://github.com/frida/frida-qml) - Frida Qml plugin.
 * [qmlc](https://github.com/qmlc/qmlc) - The Qml Compiler can be used to convert Qml source code files into precompiled Qml files. The precompiled Qml files are faster to load and do not expose the source code. Normally, the Qt either compiles the Qml files in the startup or interprets the Qml files runtime.
 * [viewstack.pri](https://github.com/benlau/viewstack.pri) - ViewStack is a wrapper of StackView (QQC2) that provides a stateless interface.
@@ -228,8 +226,7 @@ A curated list of awesome Qt and QML libraries, resources, projects, and shiny t
 * [QtFirebase](https://github.com/Larpon/QtFirebase) - An effort to bring the Firebase C++ API to Qt + QML.
 * [GATutorial-QML](https://github.com/lasconic/GATutorial-QML) - A simple integration of Google Analytics with Qt Quick for iOS and Android.
 * [social-connect-qml-plugin](https://github.com/microsoft-mobile/social-connect-qml-plugin) - This plug-in delivers an interface for Qt Quick developers for accessing the APIs of Facebook and Twitter that allow creating mobile applications powered by social media.
-* [QtAdMob](https://github.com/yevgeniy-logachev/QtAdMob) - QtAdMob is a C++ lib for Qt with QML support, which allows to show ads from AdMob on Android and iOS platforms
-* [Kirigami](https://techbase.kde.org/Kirigami) - lightweight user interface framework for mobile and convergent applications
+* [QtAdMob](https://github.com/yevgeniy-logachev/QtAdMob) - QtAdMob is a C++ lib for Qt with QML support, which allows to show ads from AdMob on Android and iOS platforms.
 
 ## Styling
 * [fluid](https://github.com/lirios/fluid) - Fluid is a collection of cross-platform QtQuick components for building fluid and dynamic applications.
@@ -268,8 +265,6 @@ A curated list of awesome Qt and QML libraries, resources, projects, and shiny t
 
 # Learning
 * [The QML Book](http://qmlbook.github.io/) - The QML Book. ([source](https://github.com/qmlbook/qmlbook))
-* [Gcompris](http://www.gcompris.net/index-en.html) - For Kids. 
-* [Ktouch](https://www.kde.org/applications/education/ktouch/) - Touch Typing Tutor
 
 # Software
 * [files](https://github.com/lirios/files) - File manager.
